@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <html lang="es">
+        <title>Aria</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="harina, leche, HUEVOS,pan,comida vegana,saludable,sustentable,alimentos,legumbres,verduras,productos congelados,reposteria,dulces,artesanal
+        ">
+         <meta name="descripcion" content="ponemos una descripcion de la pagina 70-140 caracteres"
+         <meta name="autor" content="nombre del autor"
+         <meta name="copyright" content="nombre de la empresa registrada dueña de los derechos de
+          esa empresa">
+          <meta name="robots" content="index o noindexponemos si la pagina esta indexada si
+           aparece en el buscador ">
+           <link rel="icon" href="fotos/icono.ico" type="image/ico">
+           <link rel="stylesheet"type="text/css" href="normalize.css" 
+           <link rel="stylesheet" href="estilo.css"> 
+<style>
+               *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: url(fotos/foto-fondo.jpg);
+    background-size:cover;
+}
+nav{
+    max-width:900px;
+    margin:auto;
+    background-color:transparent;
+    font-size:20px;
+    margin-top:0px;
+}
+.menu-horizontal{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    text-decoration:underline;  
+}
+.menu-horizontal > li > a{
+    display:block;
+    padding:15px 20px;
+    color:white;
+    text-decoration:none;
+}
+.menu-horizontal > li:hover{
+    background-color:#17a2b8;
+    text-decoration:underline;
+    transition: 1s;
+}
+.menu-vertical{
+    position:absolute;
+    display:none;
+    list-style:none;
+    width:200px;
+    background-color: rgba(0, 0, 0,.5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display:block;  
+}
+.menu-vertical li:hover{
+    background-color:#28a745;
+    transition: 2s;
+    transform: translateX(3px);
+}
+.menu-horizontal li a{
+    display:block;
+    color:white;
+    padding:15px 15px 15px 20px;
+    text-decoration:none;
+}
+.h3-h3{
+    color:black;
+    text-align:center;
+    font-size:35px ;
+    font-weight:450;
+    height:99px;
+}
+.h4-h4{
+    color:black;
+    text-align: center;
+    font-size:25px ;
+    height:25px;
+}
+/*.p-p:hover{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+/* background: grey;*/
+   /* transition-property: color;
+    transition-duration: 1s;
+    border:2px solid goldenrod;
+    border-radius: 5px;
+    border-style:ridge;
+    border-width: 10px;
+}-*/
+.p-p::first-letter{
+    color: goldenrod;
+    font-size: 55px;
+    border:2px solid goldenrod;
+    border-radius: 5px;
+    border-style:ridge;
+    border-width: 10px;
+}
+
+.p-p{
+    display:inline; 
+    position: relative;
+    top: 100px;
+    color: black;
+    text-align: left; 
+    font-size:25px ;
+    border:2px solid goldenrod;
+    border-radius: 5px;
+    border-style:ridge;
+    border-width: 10px;
+}
+.a-a:hover{
+    color: blue;
+    font-size:45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.a-a{
+    color: rgb(230, 11, 11);
+    text-align:center; 
+    font-size:25px ;
+}
+.a-b:hover{
+    position: relative;
+    top: 120px;
+    color: blue;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-property: color;
+    transition-duration: 1s;
+}
+.a-b{
+    position: relative;
+    top: 120px;
+    color: blue;
+    text-align: center; 
+    font-size:30px ;
+}
+.a-c:hover{
+    color: blue;
+    font-size:45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition-property:color;
+    transition-duration:1s;
+}
+.a-c{
+    position:relative;
+    top:90px;
+    color: rgb(230, 11, 11);
+    text-align:center; 
+    font-size:25px 
+}
+#id-redes{
+    height:15px;
+}
+.article{
+    margin-top:158px;
+    font-size:20px;
+    background: grey;
+    opacity:0.8;
+}
+.titulos{
+    font-size:35px ;
+    font-family:'Open Sans',sans-serif;
+    text-align:center;
+    transition:1s;
+}
+.titulos:hover{  
+    color:blue;
+    font-size:45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.titulos::first-letter{    
+    font-size:55px;
+    color: green;
+}
+.parrafos{
+    font-size:25px;
+    font-family:'Open Sans',sans-serif;
+    text-align:center;
+}
+.parrafos:hover{
+    color: blue;
+    font-size:25px;
+    font-family:'Open Sans',sans-serif;
+    
+}
+.parrafos::first-letter{
+    color: green;
+    font-size:45px;
+}
+.titulo-mapa{
+    position:relative;
+    text-align:center;
+    height:50px;
+    font-size:45px;
+    font-family:serif;
+    color:cyan;
+}
+.mapa{  
+    padding:0 auto;
+    display:block;
+    margin:auto;
+    width:1100px;
+    height:517px; 
+}
+.mision{
+    font-size:25px ;
+    font-family:'Open Sans',sans-serif;
+    text-align:center  ;
+    transition:1s
+}
+.mision:hover{  
+    color:blue;
+    font-size:45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.mision::first-letter{    
+    font-size:45px;
+    color: green;
+}
+.misiones{
+    font-size:25px ;
+    font-family:'Open Sans',sans-serif;
+    text-align:left;
+    transition:1s;
+}
+.misiones:hover{ 
+    overflow: hidden;
+    color:blue;
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.misiones::first-letter{    
+    font-size:45px;
+    color: green;
+}       
+.icono-foto{
+    position: relative;
+    top:-60px;
+    margin:10px;
+    height:95px;
+    width:115px;
+}           
+.icono-ig{
+    box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+    border-radius: 20px;
+    position: fixed;
+    margin: 25px;
+    right: 40px;
+    top: 60px;
+}
+.button{
+    background-color: #4CAF50; 
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:25px;
+    margin: -18px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: black;
+    font-size: 30px;
+    transition-duration: 0.4s;
+}
+</style>
+    </head>
+    <body>
+        <div class="icono-ig"> 
+            <a href="https://instagram.com/ariaveggie?utm_medium=copy_link" target="_blank">
+            <img style="margin:5px" src="fotos/icono-ig2.png"  width="59" height="55" alt="instagram"></a>
+        </div>
+        <div id="container">
+            <header>
+            <!-- <h1<b>Mundo Cocina</b>-->
+            </header>
+            <nav>
+                <ul class="menu-horizontal">
+                    <li><a href="index.html">Inicio</a>
+                        <li>
+                        <a href="contacto.html">Contacto</a>
+                        <ul class="menu-vertical">
+                            <li><a href="instagram.html">Instagram</a></li>  
+                            <li><a href="ubicacion.html">ubicacion</a></li> 
+                        </ul>
+                    <li><a href="Nosotros.html">Sobre Nosotros</a></li>
+                    <li>
+                        <a href="productos.html">Productos</a>
+                        <ul class="menu-vertical">
+                            <li><a href="comidas.html">productos congelados</a></li>  
+                            <li><a href="apreritivos.html">reposteria/otros</a></li>                      
+                        </ul>
+                    </li>  
+                </ul>
+        </div>
+        <div>
+            <img class="icono-foto"<img src="fotos/icono-final.jfif"</img>
+        </div>
+            </nav>
+            <section id="content">
+                <div>         
+                <article class="article">
+                    <h2 class="titulos">¿Quienes somos?</h2>
+                        <p class="parrafos" >Somos un emprendimiento vegano, que busca que todas las personas puedan tener a su alcance opciones<br>
+                            más saludables, ricas y consientes en la alimentación diaria.
+                            Hacemos todas nuestras comidas y productos, caseros y con amor. 
+                            Queremos ser parte del cambio que todos nosotros necesitamos en nuestra vida diaria. <br></p>
+                            <h2 class="mision">Misión:</h3>
+                             <p class="misiones"> Ofrecer nuevas alternativas ricas, saludables y consientes a base de plantas. </p> 
+                            <h2 class="mision"> Visión </h2> 
+                            <p  class="misiones"> Poder facilitar el acceso a una alimentación más consiente y saludable. Concientizar y hacer crecer este cambio alimenticio.<br>
+                        </p> <br>
+                    <h2 class="titulos" >¿Por qué elegir una alimentación vegana?</h2>
+                    <br>
+                        <p class="parrafos">
+                            Cada vez es más evidente que el consumo de animales es la principal <br>
+                            causa de muchos de los problemas mundiales. Puesto que la alimentación vegetal<br>
+                            supone una solución concreta para resolver estas cuestiones <br>
+                            el estilo de vida y una alimentación sin productos de origen animal están tomando<br>
+                            impulso rápidamente. Una dieta vegetal salva a los animales de una vida de sufrimiento,<br>
+                            reduce la huella ecológica a nivel individual y contribuye a un mundo más justo. Al mismo <br>
+                            tiempo, llevar una alimentación a base de vegetales también puede contribuir a una dieta más<br>
+                            variada y saludable.
+                        </p>
+                        <br>
+                        <h2 class="titulos" >Ser vegano no es solo una cuestión de alimentación...</h2>
+                        <br>
+                        <p class="parrafos">
+                            Para muchos, el veganismo no solo es cuestión de alimentación, sino que se aplica a todos los aspectos<br>
+                            de la vida. Un estilo de vida vegano incluye, por ejemplo, evitar la ropa que contenga productos de origen<br>
+                            animal como el cuero, la lana o la piel, y cosméticos con productos de procedencia animal como miel o lanolina<br>
+                            o que hayan sido probados en animales. Afortunadamente, la variedad de ropa vegana y cosméticos sin productos animales<br>
+                            también está creciendo y cada vez hay mayor disponibilidad. Los veganos también procuran evitar cualquier forma de<br>
+                            explotación o crueldad animal para divertirse como las visitas a los zoos o los circos.
+                        </p>                
+                </div>
+                <!-- </article> 
+                <article class="article">
+                    <h2>titulo de un articulo o de un plato de comida/beneficios ect</h2>
+                    <p>ac ponemos la descripcion del titulo que le hemos puesto </p>
+                </article>
+                <article class="article">
+                    <h2>titulo de un articulo o de un plato de comida/beneficios ect</h2>
+                    <p>ac ponemos la descripcion del titulo que le hemos puesto </p>
+                </article>
+                <article class="article">
+                    <h2>titulo de un articulo o de un plato de comida/beneficios ect</h2>
+                    <p>ac ponemos la descripcion del titulo que le hemos puesto </p>
+                </article>
+                <article class="article">
+                    <h2>titulo de un articulo o de un plato de comida/beneficios ect</h2>
+                    <p>ac ponemos la descripcion del titulo que le hemos puesto </p>
+                </article>
+            </section>
+            <aside>
+                <h3>aca ponemos un titulo o nota de menor prioridad</h3>
+                <p>aca lo describimos</p>
+            </aside>-->
+            <footer>
+                <p class="p-p">Seguinos en nuestras redes sociales</p><br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br><br>
+                <br>
+                <button class="button"><a href="https://www.instagram.com/ariaveggie/?utm_medium=copy_link"target="_black" >IR A INSTA</a></button>                                                            
+                </a>                   
+                <h3 class="h3-h3">Aria S. A </h3> <br>
+                <h4 class="h4-h4">Copyright- Todos los derechos reservados</h4> <br>  
+            </div>
+            </footer>
+            
+     
+    </body>
+
+
+</html>

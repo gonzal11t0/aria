@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aria</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="harina, leche, HUEVOS,pan,comida vegana,saludable,sustentable,alimentos,legumbres,verduras,productos congelados,reposteria,dulces,artesanal
+        ">
+        <meta name="descripcion" content="ponemos una descripcion de la pagina 70-140 caracteres">
+        <meta name="autor" content="nombre del autor">
+        <meta name="copyright" content="nombre de la empresa registrada dueña de los derechos de
+        esa empresa">
+        <meta name="robots" content="index o noindexponemos si la pagina esta indexada si
+        aparece en el buscador ">
+        <link rel="icon" href="fotos/icono.ico" type="image/ico">
+        <link rel="stylesheet"type="text/css" href="normalize.css"> 
+        <link rel="stylesheet" href="estilo.css"> 
+<style>
+/*----------- menu desplegable----------------*/               *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: url(fotos/foto-fondo.jpg);
+    background-size:cover;
+}
+nav{
+    max-width:900px;
+    margin:auto;
+    background-color:transparent;
+    font-size:20px;
+    margin-top:0px;
+}
+.menu-horizontal{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+}
+.menu-horizontal > li > a{
+    display:block;
+    padding: 15px 20px;
+    color:white;
+    text-decoration:none;
+}
+.menu-horizontal > li:hover{
+    background-color:#17a2b8;
+    text-decoration:underline;
+    transition: 1s;
+}
+.menu-vertical{
+    position:absolute;
+    display:none;
+    list-style:none;
+    width:200px;
+    background-color: rgba(0, 0, 0,.5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display:block;  
+}
+.menu-vertical li:hover{
+    background-color:#28a745;
+    transition: 2s;
+    transform: translateX(3px);
+}
+.menu-horizontal li a{
+    display:block;
+    color:white;
+    padding: 15px 15px 15px 20px;
+    text-decoration:none;
+}  
+
+.titulo-mapa{
+    display:inline-block;
+    position: relative;
+    padding: 100px;
+    right: -320px;
+    width: -1px; 
+    bottom:55px;  
+    text-align: center;
+    height:10px;
+    font-size:45px;
+    font-family: serif;
+    color:rgb(56, 22, 90);
+    border:2px solid rgb(230, 191, 95);
+    border-radius: 2px;
+    border-style:ridge;
+    border-width:15px;
+    background: grey;
+    opacity:0.8;
+}
+.mapa{  
+    display: inline;
+    padding:-190px;
+    display: block;
+    margin: auto;
+    width: 900px;
+    height:400px;
+    margin-top:20px;
+    
+}
+.mapa-titulo{
+    padding:55px;
+}
+.icono-foto{
+    position: relative;
+    top:-60px;
+    margin:10px;
+    height:95px;
+    width:115px;
+}
+.icono-ig{
+    box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+    border-radius: 20px;
+    position: fixed;
+    margin: 25px;
+    right: 40px;
+    top: 60px;
+}
+</style>
+    </head>
+    <body>
+        <div class="icono-ig"> 
+            <a href="https://instagram.com/ariaveggie?utm_medium=copy_link" target="_blank">
+            <img style="margin:5px" src="fotos/icono-ig2.png"  width="59" height="55" alt="instagram"></a>
+        </div>
+        <div id="container">
+            <header>
+        <!-- <h1<b>Mundo Cocina</b>-->
+            </header>
+            <nav>
+                <ul class="menu-horizontal">
+                    <li><a href="index.html">Inicio</a>
+                    <li>
+                         <a href="">Contacto</a>
+                         <ul class="menu-vertical">
+                            <li><a href="instagram.html">Instagram</a></li>  
+                            <li><a href="ubicacion.html">ubicacion</a></li>
+                         
+                       
+                         </ul>
+                    <li><a href="Nosotros.html">Sobre Nosotros</a></li>
+                    <li>
+                        <a href="productos.html">Productos</a>
+                        <ul class="menu-vertical">
+                            <li><a href="comidas.html">productos congelados</a></li>  
+                            <li><a href="apreritivos.html">reposteria/otros</a></li>                      
+                        </ul>
+                    </li>  
+                </ul>
+        </div>
+        <div>
+            <img class="icono-foto"<img src="fotos/icono-final.jfif"</img>
+        </div>
+        <div class="mapa-titulo">
+            <br>
+                <h1 class="titulo-mapa" >San Miguel, Buenos Aires</h1>
+        </div>
+                <p></p><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13147.192693126612!2d-58.72273129300535!3d-34.533341031750936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1643830805548!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </p>
+        
+            </nav>
+          
+           
+                
+    </body>
+
+
+</html>

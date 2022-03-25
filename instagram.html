@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aria</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="harina, leche, HUEVOS,pan,comida vegana,saludable,sustentable,alimentos,legumbres,verduras,productos congelados,reposteria,dulces,artesanal">
+        <met name="descripcion" content="ponemos una descripcion de la pagina 70-140 caracteres"
+        <meta name="autor" content="nombre del autor"
+        <meta name="copyright" content="nombre de la empresa registrada dueña de los derechos de
+        esa empresa">
+        <meta name="robots" content="index o noindexponemos si la pagina esta indexada si
+        aparece en el buscador ">
+        <link rel="icon" href="fotos/icono.ico" type="image/ico">
+        <link rel="stylesheet"type="text/css" href="normalize.css" 
+        <link rel="stylesheet" href="estilo.css"> 
+<style>
+/*----------- menu desplegable----------------*/               
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}body{
+    background-image: url(fotos/foto-fondo.jpg);
+    background-size:cover;
+    height:900px;
+}
+nav{
+    max-width:900px;
+    margin:auto;
+    background-color:transparent;
+    font-size:20px;
+    margin-top:0px;
+}
+.menu-horizontal{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    text-decoration:underline;  
+}
+.menu-horizontal > li > a{
+    display:block;
+    padding:15px 20px;
+    color:white;
+    text-decoration:none;
+}
+.menu-horizontal > li:hover{
+    background-color:#17a2b8;
+    text-decoration:underline;
+    transition: 1s;
+}
+.menu-vertical{
+    position:absolute;
+    display:none;
+    list-style:none;
+    width:200px;
+    background-color: rgba(0, 0, 0,.5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display:block;  
+}
+.menu-vertical li:hover{
+    background-color:#28a745;
+    transition: 2s;
+    transform: translateX(3px);
+}
+.menu-horizontal li a{
+    display:block;
+    color:white;
+    padding:15px 15px 15px 20px;
+    text-decoration:none;
+}
+/*--------------- inicio-----------*/  
+
+/*----------------contacto------------*/
+/*----------------instagram-----------*/
+#id-ig{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height:-30px;
+    padding: 158px;
+}
+#id-fto-ig{
+    width:500px;
+    height:300px;
+}
+.h3-h3{
+    color:black;
+    text-align: center;
+    font-size:35px ;
+    font-weight:450;
+    height:99px;
+}
+.h4-h4{
+    color:black;
+    text-align: center;
+    font-size:25px ;
+    height:25px;
+}   
+/*.p-p:hover{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+/* background: grey;*/
+    transition-property: color;
+    transition-duration: 1s;
+    border:2px solid goldenrod;
+    border-radius: 5px;
+    border-style:ridge;
+    border-width: 10px;
+}*/
+.p-p::first-letter{
+    color: goldenrod;
+    font-size: 55px;
+    border:2px solid goldenrod;
+    border-radius: 5px;
+    border-style:ridge;
+    border-width: 10px;
+}
+
+.p-p{
+    display:inline; 
+    position: relative;
+    top: 50px;
+    color: white;
+    text-align: left; 
+    font-size:25px ;
+    border:2px solid goldenrod;
+    border-radius: 5px;
+    border-style:ridge;
+    border-width: 10px;
+}
+.a-a:hover{
+    color: blue;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+.a-a{
+    color: rgb(230, 11, 11);
+    text-align: center; 
+    font-size:25px ;
+}
+.a-b:hover{
+    position: relative;
+    top: 120px;
+    color: blue;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-property: color;
+    transition-duration: 1s;
+}
+.a-b{
+    position: relative;
+    top: 120px;
+    color: blue;
+    text-align: center; 
+    font-size:30px ;
+}
+.a-c:hover{
+    transition-property: hover;
+    transition-duration:2s;
+    position: relative;
+    top: 100px;
+    color: blue;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-property: color;
+    transition-duration: 1s;
+}
+.a-c{
+    position: relative;
+    top: 100px;
+    color: rgb(230, 11, 11);
+    text-align: center; 
+    font-size:25px 
+}
+.titulo-mapa{
+    position: relative;
+    text-align: center;
+    height:50px;
+    font-size: 45px;
+    font-family: serif;
+    color:cyan;
+}
+.mapa{  
+    padding: 0 auto;
+    display: block;
+    margin: auto;
+    width: 1100px;
+    height: 517px; 
+}
+.descripcion-ig{
+    margin-top:-20px;
+    opacity:0.8 ;
+    background-color: gray;
+    font-size:25px ;
+    font-family:'Open Sans',sans-serif;
+    text-align:center;
+    transition:1s;
+}
+.descripcion-ig:hover{
+    color:blue;
+    font-size:25px;
+    font-family:'Open Sans',sans-serif;
+}
+.descripcion-ig::first-letter{
+    font-size:45px;
+    color: green;
+}
+#id-click{
+    color: green;
+
+}
+.icono-foto{
+    position: relative;
+    top:-60px;
+    margin:10px;
+    height:95px;
+    width:115px;
+}
+.icono-ig{
+    box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+    border-radius: 20px;
+    position: fixed;
+    margin: 25px;
+    right: 40px;
+    top: 60px;
+}
+#id-button{
+    bottom: -59px;
+}
+
+.button{
+    background-color: #4CAF50; 
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:25px;
+    margin: -18px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: black;
+    font-size: 30px;
+    transition-duration: 0.4s;
+}
+
+</style>
+    </head>
+    <body>
+        <div class="icono-ig"> 
+            <a href="https://instagram.com/ariaveggie?utm_medium=copy_link" target="_blank">
+            <img style="margin:5px" src="fotos/icono-ig2.png"  width="59" height="55" alt="instagram"></a>
+        </div>
+        <div id="container">
+            <header>
+               <!-- <h1<b>Mundo Cocina</b>-->
+            </header>
+            <nav>
+                <ul class="menu-horizontal">
+                    <li><a href="index.html">Inicio</a>
+                    <li>
+                         <a href="contacto.html">Contacto</a>
+                         <ul class="menu-vertical">
+                            <li><a href="instagram.html">Instagram</a></li>  
+                            <li><a href="ubicacion.html">ubicacion</a></li>
+                          
+                         </ul>
+                    <li><a href="Nosotros.html">Sobre Nosotros</a></li>
+                    <li>
+                        <a href="productos.html">Productos</a>
+                        <ul class="menu-vertical">
+                            <li><a href="comidas.html">productos congelados</a></li>  
+                            <li><a href="apreritivos.html">reposteria/otros</a></li>                      
+                        </ul>
+                    </li>  
+                </ul>
+        </div>
+        <div>
+            <img class="icono-foto"<img src="fotos/icono-final.jfif"</img>
+        </div>
+            </nav>
+            <p class="menu-contacto">    
+               <h1 class="titulo-falso"></h1>
+                <h2 id="id-ig" >Instagram:<a href="https://instagram.com/ariaveggie?utm_medium=copy_link" target="_blank"> <br><b id="id-click" >Haz click aqui</b></a>  <br>  <img id="id-fto-ig" src="fotos/foto-ig.jfif"<br> </h2>     
+            </p>      
+            <div class="descripcion-ig">
+                <p>
+                    Seguinos en nuestra pagina de instagram!! <br>
+                    En donde tomamos los pedidos y nos pueden realizar cualquier consulta.
+                </p>
+            </div>                 
+            <footer>    
+                <div> <p class="p-p">Seguinos en nuestras redes sociales</p><br></div>
+                <br>
+                <br>  
+                <br>  
+                <br> 
+                <br>  
+                <br>               
+                <button class="button"><a href="https://www.instagram.com/ariaveggie/?utm_medium=copy_link"target="_black" >IR A INSTA</a></button>                                                            
+                <h3 class="h3-h3"<b>Aria S. A </b></h3> <br>
+                <h4 class="h4-h4"> Copyright- Todos los derechos reservados</h4> <br>
+            </div>
+            </footer>    
+    </body>
+</html>
